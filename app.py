@@ -4,7 +4,6 @@ import os
 from flask import Flask
 from flask import render_template
 from flask import request, redirect, session, url_for
-from flask.helpers import flash
 from seed_library import seed_books
 from flask_pymongo import PyMongo
 from model import genres
